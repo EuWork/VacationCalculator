@@ -1,0 +1,34 @@
+import { style } from "@vanilla-extract/css";
+
+export const checkboxesStyles = style({
+  maxHeight: 300,
+  height: 0,
+  flex: 1,
+});
+
+export const searchStyles = style({
+  marginBottom: 4,
+  position: "relative",
+  selectors: {
+    "&:after": {
+      content: "",
+      position: "absolute",
+      bottom: -8,
+      left: -8,
+      right: -8,
+      background: "var(--ant-color-border-secondary)",
+      height: 1,
+    },
+  },
+});
+
+export const scrollStyles = style({
+  height: 0,
+  flex: 1,
+});
+
+export const scrollContentStyles = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: 8,
+});

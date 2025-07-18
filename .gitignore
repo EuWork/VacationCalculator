@@ -1,0 +1,16 @@
+node_modules
+/coverage
+dist
+.DS_Store
+.idea
+.vscode
+
+npm-debug.log*
+
+*.tsbuildinfo
+
+.env
+projectStructure.cache.json
+
+scripts/temp
+scripts/*.tar.gz

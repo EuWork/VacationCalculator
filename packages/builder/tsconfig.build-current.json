@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "rootDir": "src",
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "emitDeclarationOnly": false,
+    "module": "CommonJS"
+  },
+  "include": ["src"]
+}

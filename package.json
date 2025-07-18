@@ -1,0 +1,51 @@
+{
+  "name": "app",
+  "scripts": {
+    "local-install": "npm i --legacy-peer-deps",
+    "------------ COMMON ------------": "",
+    "build:builder": "npm run --workspace=@app/builder build",
+    "build:kit:dev": "npm run --workspace=@app/kit build:dev",
+    "build:kit:prod": "npm run --workspace=@app/kit build:prod",
+    "build:front-modules:dev": "npm run --workspace=@app/front-modules build:dev",
+    "build:front-modules:prod": "npm run --workspace=@app/front-modules build:prod",
+    "build:ui:dev": "npm run --workspace=@app/ui build:dev",
+    "build:ui:prod": "npm run --workspace=@app/ui build:prod",
+    "------------ DTO ------------": "",
+    "build:dto:dev": "npm run --workspace=@app/dto build:dev",
+    "build:dto:prod": "npm run --workspace=@app/dto build:prod",
+    "------------ RUN DEV ------------": "",
+    "dev:frontend": "npm run --workspace=@app/frontend run:dev -- --host 0.0.0.0",
+    "------------ BUILD PROD ------------": "",
+    "build:frontend": "npm run --workspace=@app/frontend build",
+    "------------ LINT ------------": "",
+    "format": "prettier --write \"packages/**/src/**/*.{ts,tsx,js,jsx,css,sass,json}\"",
+    "lint": "eslint \"packages/**/src/**/*.{js,ts,tsx}\"",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.17.4",
+    "@worksolutions/eslint-config-common": "^1.0.8",
+    "concurrently": "8.2.2",
+    "decimal.js": "^10.5.0",
+    "eslint-plugin-project-structure": "3.12.0",
+    "mobx-react-lite": "^4.1.0",
+    "xlsx-js-style": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "cross-env": "^7.0.3",
+    "prettier": "3.3.3",
+    "rimraf": "^6.0.1",
+    "typescript": "5.6.3"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "license": "ISC",
+  "author": "Anatoly Grabarov",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "20"
+  }
+}

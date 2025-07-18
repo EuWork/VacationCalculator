@@ -1,0 +1,30 @@
+{
+  "name": "@app/ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:dev": "rimraf .tsbuildinfo && cross-env NODE_ENV=development node build-current-package.js",
+    "build:prod": "rimraf .tsbuildinfo && cross-env NODE_ENV=production node build-current-package.js",
+    "demo": "NODE_ENV=development vite dev"
+  },
+  "types": "dist/main.d.ts",
+  "main": "dist/main.js",
+  "module": "dist/main.mjs",
+  "license": "ISC",
+  "dependencies": {
+    "@worksolutions/utils": "*",
+    "@worksolutions/react-utils": "*",
+    "react": "*",
+    "react-dom": "*",
+    "@vanilla-extract/css": "*",
+    "classnames": "*",
+    "react-use": "*",
+    "antd": "*",
+    "react-toastify": "10.0.6",
+    "overlayscrollbars": "2.10.0",
+    "overlayscrollbars-react": "0.5.6"
+  },
+  "devDependencies": {
+    "serve": "14.2.4"
+  }
+}

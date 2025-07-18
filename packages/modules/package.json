@@ -1,0 +1,26 @@
+{
+  "name": "@app/front-modules",
+  "version": "1.0.0",
+  "scripts": {
+    "build:dev": "rimraf .tsbuildinfo && cross-env NODE_ENV=development node build-current-package.js",
+    "build:prod": "rimraf .tsbuildinfo && cross-env NODE_ENV=production node build-current-package.js"
+  },
+  "dependencies": {
+    "react": "*",
+    "@types/react": "*",
+    "mobx": "*",
+    "mobx-react-lite": "*",
+    "@worksolutions/utils": "*",
+    "@worksolutions/react-utils": "*",
+    "@app/kit": "*",
+    "uuidjs": "*"
+  },
+  "sideEffects": false,
+  "types": "dist/main.d.ts",
+  "main": "dist/main.js",
+  "module": "dist/main.mjs",
+  "description": "",
+  "private": true,
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,291 @@
+{
+  "loading_error_messages": {
+    "unexpected_employees": "Не удалось загрузить список сотрудников. Пожалуйста, попробуйте позже.",
+    "unexpected_departments": "Не удалось загрузить список подразделений. Пожалуйста, попробуйте позже.",
+    "unexpected_actions": "Не удалось загрузить список действий. Пожалуйста, попробуйте позже.",
+    "unexpected_summary": "Не удалось загрузить сводные данные. Пожалуйста, попробуйте позже."
+  },
+  "grade_type": {
+    "base": "Вилка грейда base",
+    "total": "Вилка грейда total"
+  },
+  "privacy": {
+    "text": "Режим конфиденциальности"
+  },
+  "current_form": {
+    "button_text": "Открыть актуальную форму"
+  },
+  "indicators": {
+    "payroll": {
+      "title": "Заработная плата",
+      "description": "Плановые значения",
+      "planned": "base",
+      "total": "total"
+    },
+    "comparative_ratio": {
+      "title": "Compa-Ratio",
+      "description": "Средний по команде",
+      "before_changes": "До изменений",
+      "after_changes": "После изменений"
+    },
+    "total_change_percent": {
+      "title": "Процент",
+      "description": "Общие изменения",
+      "success_tooltip": "Значение в рамках рекомендуемого"
+    },
+    "gross_change": {
+      "title": "Сумма изменений",
+      "description": "Общая по команде (gross)",
+      "current_year": "с даты изменения",
+      "full_year": "за полный год"
+    },
+    "payment_distribution": {
+      "title": "Проплаченность",
+      "description": "Распределение зарплат команды"
+    }
+  },
+  "employees_table": {
+    "no_data": "По вашему запросу ничего не найдено.\nПопробуйте изменить или сбросить фильтры.",
+    "headers": {
+      "name": {
+        "title": "ФИО"
+      },
+      "position": {
+        "title": "Должность"
+      },
+      "rank": {
+        "title": "Разряд"
+      },
+      "grade": {
+        "title": "Грейд"
+      },
+      "rate_percent": {
+        "title": "Занятость"
+      },
+      "payment_distribution": {
+        "title": "Проплаченность"
+      },
+      "tariff_group": {
+        "title": "Тарифная группа"
+      },
+      "increase_percent": {
+        "title": "Повышение"
+      },
+      "comment": {
+        "title": "Комментарий"
+      },
+      "last_increase_percent": {
+        "title": "Последнее повышение"
+      },
+      "last_increase_date": {
+        "title": "Дата повышения"
+      },
+      "last_increase_per_year_percent": {
+        "title": "Повышение\nза 11 месяцев"
+      },
+      "rating": {
+        "title": "Оценка"
+      }
+    },
+    "body": {
+      "tariff_groups_field": {
+        "placeholder": "Тарифная группа",
+        "last_approved": "До изменения: {value}"
+      },
+      "increase_percent_field": {
+        "placeholder": "0",
+        "error_message": "Проверьте данные",
+        "custom_error_messages": {
+          "is_worker": "Задается тарифной группой"
+        }
+      },
+      "comment_field": {
+        "placeholder": "Введите комментарий"
+      },
+      "grade_field": {
+        "grade_family": "Семья грейда",
+        "grade_territory": "Региональная группа"
+      },
+      "payment_distribution_field": {
+        "before_changes": "{gradeType} до: {before}",
+        "before_and_after_changes": "{gradeType} до: {before}\n{gradeType} после: {after}"
+      },
+      "position_field": {
+        "categories": {
+          "drugie-sluzhashchie": "Другой служащий",
+          "rabochie": "Рабочий",
+          "rukovoditeli": "Руководитель",
+          "spetsialisty": "Специалист"
+        },
+        "departments_progress": {
+          "text": {
+            "one": "Направлен {count} из {total}",
+            "few": "Направлено {count} из {total}",
+            "more": "Направлены {count} из {total}"
+          }
+        }
+      },
+      "selection_field": {
+        "status": {
+          "error": "Ожидание",
+          "success": "Утверждено",
+          "warning": "Запланировано"
+        }
+      },
+      "name_field": {
+        "actions": {
+          "approve": "Утвердить",
+          "send_for_approval": "Направить данные",
+          "return_to_directed_version": "Вернуть к направленной версии"
+        }
+      }
+    },
+    "actions": {
+      "next_step": {
+        "text": "Следующий шаг"
+      },
+      "prev_step": {
+        "text": "Предыдущий шаг"
+      },
+      "view_variant": {
+        "text": "Отобразить всех сотрудников"
+      },
+      "send_for_approval": {
+        "text": "Направить на согласование"
+      },
+      "return_to_directed_version": {
+        "text": "Вернуть все к направленным версиям"
+      },
+      "approve": {
+        "text": "Утвердить"
+      }
+    },
+    "reorder": {
+      "title": "Изменение порядка",
+      "reset": "Сбросить"
+    }
+  },
+  "multiple_salary_change": {
+    "title": "Изменение зарплаты",
+    "warnings": {
+      "different_tariff_groups": "Выбраны сотрудники с разными тарифными группами, минимальная группа для выбора — {number}"
+    },
+    "fields": {
+      "increase_percent": {
+        "title": "Повышение",
+        "placeholder": "Введите процент"
+      },
+      "tariff_group": {
+        "title": "Тарифная группа",
+        "empty_value": "Не выбрано"
+      },
+      "comment": {
+        "title": "Комментарий",
+        "placeholder": "Опишите причину изменений"
+      }
+    },
+    "actions": {
+      "selected_employees_count": "Выбрано сотрудников: {count}",
+      "submit": "Сохранить"
+    }
+  },
+  "save_employee": {
+    "success_messages": {
+      "saved": "Изменения сохранены"
+    },
+    "error_messages": {
+      "unexpected": "Не удалось сохранить изменения",
+      "multi_unexpected": "Для части пользователей не удалось сохранить изменения. Пожалуйста, перезагрузите страницу",
+      "reload_error": "Не удалось загрузить новые данные. Пожалуйста, перезагрузите страницу"
+    }
+  },
+  "tariff_group_change_confirmation_modal": {
+    "title": "Изменения для тарифных групп",
+    "description": "Изменения будут применены ко всем сотрудникам тарифных групп:",
+    "employees_count": {
+      "one": "{count} сотрудник",
+      "few": "{count} сотрудника",
+      "more": "{count} сотрудников"
+    },
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Применить"
+    }
+  },
+  "send_for_approval_confirmation_modal": {
+    "title": "Направить данные на согласование?",
+    "description": "После отправки данных на согласование это действие нельзя будет отменить, и внесение изменений станет недоступным.",
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Направить"
+    },
+    "success_message": "Данные направлены на согласование",
+    "error_messages": {
+      "unexpected": "Не удалось отправить данные на согласование"
+    }
+  },
+  "return_to_directed_version_confirmation_modal": {
+    "title": "Вернуть все к направленным версиям?",
+    "description": "Все внесенные вами изменения по сотрудникам будут отменены. Данные по сотрудникам вернутся к направленным версиям.",
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Вернуть"
+    },
+    "success_message": "Внесенные изменения отменены",
+    "error_messages": {
+      "unexpected": "Не удалось отменить внесенные изменения"
+    }
+  },
+  "approve_confirmation_modal": {
+    "title": "Утвердить данные?",
+    "description": "После утверждения данных это действие нельзя будет отменить, и внесение изменений станет недоступным.",
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Утвердить"
+    },
+    "success_message": "Данные утверждены",
+    "error_messages": {
+      "unexpected": "Не удалось утвердить данные"
+    }
+  },
+  "approve_department_confirmation_modal": {
+    "title": "Утвердить данные?",
+    "description": "После утверждения данных это действие нельзя будет отменить.",
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Утвердить"
+    },
+    "success_message": "Данные утверждены",
+    "error_messages": {
+      "unexpected": "Не удалось утвердить данные"
+    }
+  },
+  "return_to_directed_version_department_confirmation_modal": {
+    "title": "Вернуть все к направленным версиям?",
+    "description": "Все внесенные вами изменения по сотрудникам будут отменены. Данные по сотрудникам вернутся к направленным версиям.",
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Вернуть"
+    },
+    "success_message": "Внесенные изменения отменены",
+    "error_messages": {
+      "unexpected": "Не удалось отменить внесенные изменения"
+    }
+  },
+  "send_for_approval_department_confirmation_modal": {
+    "title": "Направить данные на согласование?",
+    "description": "После отправки данных на согласование это действие нельзя будет отменить, и внесение изменений станет недоступным.",
+    "actions": {
+      "cancel": "Отмена",
+      "submit": "Направить"
+    },
+    "success_message": "Данные направлены на согласование",
+    "error_messages": {
+      "unexpected": "Не удалось отправить данные на согласование"
+    }
+  },
+  "page_title": {
+    "null_form_id": "Сотрудники",
+    "form_name": "{formName} ({formStatus})"
+  }
+}

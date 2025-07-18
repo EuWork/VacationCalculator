@@ -1,0 +1,11 @@
+{
+  "extends": "@app/builder/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "rootDir": "src",
+    "tsBuildInfoFile": ".tsbuildinfo"
+  },
+  "include": ["src", "src/**/*.json"],
+  "exclude": ["node_modules"]
+}
